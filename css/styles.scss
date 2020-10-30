@@ -1,0 +1,64 @@
+@import 'variables';
+@import 'general';
+@import 'header';
+@import 'welcome';
+@import 'advantages';
+@import 'booking';
+@import 'steps';
+@import 'profesionals';
+@import 'opinions';
+@import 'help';
+@import 'footer';
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container-full{
+    width: 100%;
+}
+
+.block{
+    display: block;
+}
+
+.btn-sm{
+    font-size: 0.8rem;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: $lightBlue;
+    border: 1px solid $blue;
+    color: $black;
+    cursor: pointer;
+}
+
+.separador{
+    content : "";
+    position: relative;
+    background: $blue;
+    margin: 3.5rem auto;
+    width: 80%;
+    height: 3px;
+    &:before{
+        content : "";
+        position: absolute;
+        top: 10px;
+        left: 30%;
+        background: $blue;
+        margin: auto;
+        width: 40%;
+        height: 3px;
+    }
+    &:after{
+        content : "";
+        position: absolute;
+        top: -10px;
+        left: 30%;
+        background: $blue;
+        margin: auto;
+        width: 40%;
+        height: 3px;
+    }
+}

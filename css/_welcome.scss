@@ -1,0 +1,29 @@
+.welcome{
+
+}
+
+.img__welcome{
+    background: url(https://image.freepik.com/vector-gratis/personaje-accion-doctor-lindo_105783-33.jpg);
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    z-index: -1
+}
+
+.content__welcome{
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    margin-top: -50px;
+    z-index: 9;
+}
+
+.title__welcome{
+    padding: 2rem 0
+}
+
+.body__welcome{
+    text-align: justify;
+    
+}

@@ -1,0 +1,22 @@
+
+.img__opinion{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 1px $darkGray,
+                -10px -5px 1px $lightGray;
+    
+    }
+
+.name__opinion{
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.description__opinion{
+    margin-bottom: 25px;
+    text-align: center;
+}
+

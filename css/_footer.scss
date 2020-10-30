@@ -1,0 +1,43 @@
+.footer{
+    padding: 2rem 0px 0px;
+    background-color: $darkBlue;
+}
+
+.title__footer{
+    color:  $gray;
+}
+
+.list__docs{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .link__doc{
+        text-decoration: none;
+        color: $lightBlue;
+        padding: 10px 0px;
+    }
+}
+
+.list__socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+
+    .item__social{
+        margin: 20px 10px;
+    }
+}
+
+.follow__social{
+    color: $lightGray;
+    text-align: center;
+}
+
+.small__footer{
+    display: block;
+    text-align: center;
+    color: $gray;
+}

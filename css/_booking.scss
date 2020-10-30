@@ -1,0 +1,14 @@
+.booking{
+    display:flex;
+    flex-flow: column;
+    font-size: 1.1rem;
+}
+
+.title__booking{
+    color: $black;
+}
+
+.label__booking{
+    color: $darkGray;
+    letter-spacing: 1.2pt;
+}

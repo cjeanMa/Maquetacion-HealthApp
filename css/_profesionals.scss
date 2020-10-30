@@ -1,0 +1,20 @@
+
+.img__profesional{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 10px 5px 1px $lightBlue,
+                -10px -5px 1px $darkBlue;
+}
+
+.name__profesional{
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.description__profesional{
+    margin-bottom: 25px;
+    text-align: center;
+}

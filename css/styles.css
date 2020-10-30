@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 20px 0px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+button {
+  outline: none;
+  font-size: 1.1rem;
+  margin: 20px 0px;
+  border: 1px solid #0058ac;
+  background-color: #367cbd;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input:hover {
+  background-color: #ebe9e9;
+  -webkit-box-shadow: 1px 1px 10px #ccc;
+          box-shadow: 1px 1px 10px #ccc;
+}
+
+label {
+  margin: 15px 0px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #ebe9e9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.menu__mobile {
+  text-decoration: none;
+  color: #30373d;
+  position: relative;
+}
+
+.menu__mobile:before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: -14px;
+  top: -12px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.menu__mobile:hover {
+  color: white;
+}
+
+.menu__mobile:hover:before {
+  background-color: #666;
+}
+
+.img__welcome {
+  background: url(https://image.freepik.com/vector-gratis/personaje-accion-doctor-lindo_105783-33.jpg);
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  z-index: -1;
+}
+
+.content__welcome {
+  background-color: white;
+  border-radius: 15px 15px 0 0;
+  margin-top: -50px;
+  z-index: 9;
+}
+
+.title__welcome {
+  padding: 2rem 0;
+}
+
+.body__welcome {
+  text-align: justify;
+}
+
+.advantages {
+  text-align: justify;
+}
+
+.list__advantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 100%;
+}
+
+.item__advantage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icon__advantage {
+  color: #367cbd;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.content__item__advantage {
+  color: #666;
+}
+
+.title__item__step {
+  font-size: 1.4rem;
+  color: #367cbd;
+}
+
+.body__item__step {
+  margin: 30px 0px;
+  letter-spacing: 1.2pt;
+  color: #666;
+}
+
+.img__item__step {
+  display: block;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.booking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  font-size: 1.1rem;
+}
+
+.title__booking {
+  color: #30373d;
+}
+
+.label__booking {
+  color: #666;
+  letter-spacing: 1.2pt;
+}
+
+.item__step {
+  margin: 20px 0px;
+}
+
+.img__profesional {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 5px 1px #cbe7fd, -10px -5px 1px #0058ac;
+          box-shadow: 10px 5px 1px #cbe7fd, -10px -5px 1px #0058ac;
+}
+
+.name__profesional {
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.description__profesional {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.img__opinion {
+  display: block;
+  margin: auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 5px 1px #666, -10px -5px 1px #ebe9e9;
+          box-shadow: 10px 5px 1px #666, -10px -5px 1px #ebe9e9;
+}
+
+.name__opinion {
+  margin: 15px 0px;
+  text-align: center;
+}
+
+.description__opinion {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.help {
+  padding-bottom: 50px;
+}
+
+.text__help {
+  color: #666;
+  text-align: justify;
+}
+
+.subtitle__help {
+  color: #367cbd;
+  margin: 15px 0px;
+}
+
+.list__help summary {
+  padding: 10px;
+  background-color: #ebe9e9;
+}
+
+.list__help summary p {
+  background-color: white;
+}
+
+.footer {
+  padding: 2rem 0px 0px;
+  background-color: #0058ac;
+}
+
+.title__footer {
+  color: #ccc;
+}
+
+.list__docs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.list__docs .link__doc {
+  text-decoration: none;
+  color: #cbe7fd;
+  padding: 10px 0px;
+}
+
+.list__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+}
+
+.list__socials .item__social {
+  margin: 20px 10px;
+}
+
+.follow__social {
+  color: #ebe9e9;
+  text-align: center;
+}
+
+.small__footer {
+  display: block;
+  text-align: center;
+  color: #ccc;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.container-full {
+  width: 100%;
+}
+
+.block {
+  display: block;
+}
+
+.btn-sm {
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #cbe7fd;
+  border: 1px solid #367cbd;
+  color: #30373d;
+  cursor: pointer;
+}
+
+.separador {
+  content: "";
+  position: relative;
+  background: #367cbd;
+  margin: 3.5rem auto;
+  width: 80%;
+  height: 3px;
+}
+
+.separador:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 30%;
+  background: #367cbd;
+  margin: auto;
+  width: 40%;
+  height: 3px;
+}
+
+.separador:after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 30%;
+  background: #367cbd;
+  margin: auto;
+  width: 40%;
+  height: 3px;
+}
+/*# sourceMappingURL=styles.css.map */

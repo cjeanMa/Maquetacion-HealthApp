@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: $lightGray;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+.menu__mobile{
+    text-decoration: none;
+    color: $black;;
+    position: relative;
+        &:before{
+            content: "";
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: -14px;
+            top: -12px;
+            border-radius: 50%;
+            z-index: -1;
+        }
+    &:hover{
+        color: $white;
+        &:before{
+            background-color: $darkGray;
+        }
+    }
+}

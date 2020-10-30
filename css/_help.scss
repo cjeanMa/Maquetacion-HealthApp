@@ -1,0 +1,24 @@
+.help{
+    padding-bottom: 50px;
+}
+
+
+.text__help{
+    color: $darkGray;
+    text-align: justify;
+}
+
+.subtitle__help{
+    color: $blue;
+    margin: 15px 0px;
+}
+
+.list__help{
+    summary{
+        padding: 10px;
+        background-color: $lightGray;
+        p{
+            background-color: $white;
+        }
+    }
+}
