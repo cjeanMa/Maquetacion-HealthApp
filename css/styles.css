@@ -66,6 +66,10 @@ label {
   z-index: 9;
 }
 
+.menu {
+  padding: 20px 0px;
+}
+
 .menu__mobile {
   text-decoration: none;
   color: #30373d;
@@ -89,6 +93,27 @@ label {
 
 .menu__mobile:hover:before {
   background-color: #666;
+}
+
+.item__menu {
+  background-color: #ebe9e9;
+  width: 100vw;
+}
+
+.item__menu > a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.menu__list {
+  display: none;
+}
+
+.active {
+  display: block;
+  position: absolute;
+  left: 0;
 }
 
 .img__welcome {

@@ -8,6 +8,10 @@
     z-index: 9;
 }
 
+.menu {
+    padding: 20px 0px;
+}
+
 .menu__mobile{
     text-decoration: none;
     color: $black;;
@@ -28,4 +32,25 @@
             background-color: $darkGray;
         }
     }
+}
+
+.item__menu{
+    background-color: $lightGray;
+    width: 100vw;    
+     > a{
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+}
+
+.menu__list{
+    display: none;
+}
+
+.active{
+    display: block;
+    position: absolute;
+    left: 0;
+
 }
